@@ -2,12 +2,12 @@
 
 ## About
 
-`GH-Prep-Scholar` is a platform that allows low-income yet ambitious Ghanaian high school students effectively navigate the US undergrad college application process.
+[GH-Prep-Scholar](https://gh-prep-scholar.herokuapp.com) is a platform that allows low-income yet ambitious Ghanaian high school students effectively navigate the US undergrad college application process.
 
 
 ## Usage
 
-Be sure to have [Node.js](https://nodejs.org/) installed before proceeding. **I recommend using Node's LTS releases, which is currently at v16.x. We only test our compiled CSS against v16.**
+Be sure to have [Node.js](https://nodejs.org/) installed before proceeding. **I recommend using Node's LTS releases, which is currently at v16.x. I only tested the compiled CSS against v16.**
 
 ```shell
 # Clone the repo
