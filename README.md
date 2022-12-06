@@ -4,8 +4,6 @@
 
 `GH-Prep-Scholar` is a platform that allows low-income yet ambitious Ghanaian high school students effectively navigate the US undergrad college application process.
 
-[![Build Status](https://github.com/fhylinjr/GH-Prep-Scholar/workflows/CI/badge.svg)](https://github.com/fhylinjr/GH-Prep-Scholar/actions)
-
 
 ## Usage
 
