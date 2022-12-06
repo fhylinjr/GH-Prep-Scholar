@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GH Prep Scholar</title>
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="./css/carousel.css" rel="stylesheet">
+    <link href="./css/infinitecarousel.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--NavBar-->
+    <div class="container-fluid sticky-top bg-white">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-1 border-bottom">
+            <a href="/"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-primary text-decoration-none navbar-brand">
+                <svg class="bi me-2 img-fluid" width="40" height="32">
+                    <image href="./media/graduation-cap-solid.svg" height="40" width="32" />
+                </svg>
+                <span class="fs-4 text-primary">GH Prep Scholar</span>
+            </a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="/required docs.html" class="nav-link">Gathering Docs</a></li>
+                <li class="nav-item"><a href="/test prep.html" class="nav-link">Test Prep</a></li>
+                <li class="nav-item"><a href="/college app.html" class="nav-link">Applying To Colleges</a></li>
+                <li class="nav-item"><a href="financial aid.html" class="nav-link">Financial Aid</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        More
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">About Us</a></li>
+                        <li><a class="dropdown-item" href="#">Stories</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </header>
+    </div>
+
+    <!--HomePage Main Content-->
+
+    <main>
+        <div id="myCarousel" class="carousel slide bg-secondary" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <!--<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <image href="./media/ytcp.jpeg" height="100%" width="100%" />
+                    </svg>-->
+                    <img src="./media/ytcp.jpeg" class="d-block w-100" />
+
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1 class="display-3 lineUp">Welcome to GH Prep Scholar.</h1>
+                            <p class="fw-bold lineUp"><mark>Your one stop for successful and complete US college
+                                    application as a Ghanaian.</mark></p>
+                            <p><a class="btn btn-lg btn-primary" href="/required docs.html">Begin Process!</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!--<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="#777" />
+                    </svg>-->
+                    <img src="./media/youtube released.png" class="d-block w-100  bd-placeholder-img" width="100%"
+                        height="100%" />
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="display-3 pop-outin">YouTube Tutorials Now Available!</h1>
+                            <p class="fw-bold"><mark>Follow our YouTube Channel for an extensive breakdown of how to
+                                    complete all the different steps.</mark></p>
+                            <p><a class="btn btn-lg btn-primary" href="https://www.youtube.com/@ghprepscholar">Enjoy
+                                    Content!</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!--<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="#777" />
+                    </svg>-->
+                    <img src="./media/discord community.jpg" class="d-block w-100 bd-placeholder-img" width="100%"
+                        height="100%" />
+
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1 class="display-3 lineUp">Discord & Telegram Community Coming Soon!</h1>
+                            <p class="fw-bold lineUp"><mark>Stay tuned to join a community of like-minded individuals
+                                    and stay motivated and informed. There is strength in numbers!</mark></p>
+                            <p><a class="btn btn-lg btn-primary" href="https://t.me/+NKgaatJqg7w3Yjk0">Indicate
+                                    Interest!</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <!-- Features Section
+  ================================================== -->
+        <div class="container">
+            <div class="container marketing">
+
+                <!-- 4 columns of text below the carousel -->
+                <div class="row justify-content-center">
+                    <div class="col-lg-3 col-md-6">
+                        <svg class="bd-placeholder-img bi bi-list-check" width="140" height="140"
+                            xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"
+                            style="color: cornflowerblue;" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <path fill-rule="evenodd"
+                                d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3.854 2.146a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 3.293l1.146-1.147a.5.5 0 0 1 .708 0zm0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 7.293l1.146-1.147a.5.5 0 0 1 .708 0zm0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z" />
+                        </svg>
+
+                        <h2 class="fw-normal">Required Docs</h2>
+                        <p>Wondering all the documents you need for a successful application, what they are and how to
+                            obtain them? We've got you!</p>
+                        <p><a class="btn btn-primary" href="/required docs.html">Take me there! &raquo;</a></p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-3 col-md-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" fill="currentColor"
+                            class="bi bi-pencil bd-placeholder-img" viewBox="0 0 16 16" style="color: cornflowerblue;"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <path
+                                d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z" />
+                        </svg>
+
+                        <h2 class="fw-normal">Test Prep</h2>
+                        <p>Wondering how or which materials are the most recommended in the market for SAT preparation?
+                            This is your one-stop as well</p>
+                        <p><a class="btn btn-primary" href="/test prep.html">Take me there! &raquo;</a></p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-3 col-md-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" fill="currentColor"
+                            class="bd-placeholder-img bi bi-laptop" viewBox="0 0 16 16" style="color: cornflowerblue;"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <path
+                                d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z" />
+                        </svg>
+
+                        <h2 class="fw-normal">College App</h2>
+                        <p>Here, we can show you how to apply to your dream US colleges.</p>
+                        <p><a class="btn btn-primary mt-5" href="/college app.html">Take me there! &raquo;</a></p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-3 col-md-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" fill="currentColor"
+                            class="bd-placeholder-img bi bi-cash-coin" viewBox="0 0 16 16"
+                            style="color: cornflowerblue;" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <path fill-rule="evenodd"
+                                d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z" />
+                            <path
+                                d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z" />
+                            <path
+                                d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z" />
+                            <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z" />
+                        </svg>
+
+                        <h2 class="fw-normal">Financial Aid</h2>
+                        <p>And lastly we break what is required and how to complete successful financial aid/
+                            scholarship applications.</p>
+                        <p><a class="btn btn-primary mt-4" href="/financial aid.html">Take me there! &raquo;</a></p>
+                    </div><!-- /.col-lg-4 -->
+                </div><!-- /.row -->
+
+
+                <!-- INFINITE SCHOOLS CAROUSEL -->
+                <div class="slider mt-5">
+                    <div class="slide-track">
+                        <div class="slide">
+                            <img src="./media/minerva university.jpeg" height="100" width="150"
+                                alt="Minerva University Logo" />
+                        </div>
+                        <div class="slide">
+                            <img src="./media/harvard logo.jpeg" height="100" width="100"
+                                alt="Harvard University Logo" />
+                        </div>
+                        <div class="slide">
+                            <img src="./media/stanford logo.jpeg" height="100" width="150"
+                                alt="Stanford University Logo" />
+                        </div>
+                        <div class="slide">
+                            <img src="./media/colby logo.jpeg" height="100" width="100" alt="Colby College Logo" />
+                        </div>
+                        <div class="slide">
+                            <img src="./media/middlebury logo.jpg" height="100" width="100"
+                                alt="Middlebury College Logo" />
+                        </div>
+                        <div class="slide">
+                            <img src="./media/carleton.jpeg" height="100" width="150" alt="Carleton College Logo" />
+                        </div>
+                        <div class="slide">
+                            <img src="./media/wellesley.jpg" height="100" width="150" alt="Wellesley College Logo" />
+                        </div>
+                        <div class="slide">
+                            <img src="./media/swarthmore.jpg" height="100" width="100" alt="Swarthmore College Logo" />
+                        </div>
+                        <div class="slide">
+                            <img src="./media/amherst.jpg" height="100" width="150" alt="Amherst College Logo" />
+                        </div>
+                        <div class="slide">
+                            <img src="./media/nyu.jpg" height="100" width="150" alt="Williams College Logo" />
+                        </div>
+                        <div class="slide">
+                            <img src="./media/dartmouth.jpg" height="100" width="150" alt="Dartmouth College Logo" />
+                        </div>
+                        <div class="slide">
+                            <img src="./media/mount holyoke.jpg" height="100" width="150"
+                                alt="Mount Holyoke College Logo" />
+                        </div>
+                        <div class="slide">
+                            <img src="./media/princeton.jpeg" height="100" width="150"
+                                alt="Princeton University Logo" />
+                        </div>
+                        <div class="slide">
+                            <img src="./media/vassar.jpeg" height="100" width="150" alt="Vassar College Logo" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- START THE FEATURETTES -->
+
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading fw-normal lh-1">Success Stories. <span class="text-muted">We've
+                                all been where you are now.</span></h2>
+                        <p class="lead">If this helps, stay tuned for success stories of how Ghanains currently studying
+                            in the US navigated the entire process.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto  mt-5"
+                            width="500" height="300" xmlns="http://www.w3.org/2000/svg" role="img"
+                            aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <image href="./media/ytdp.jpeg" width="100%" height="100%" class="img-fluid" />
+                        </svg>
+
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                    <div class="col-md-7 order-md-2">
+                        <h2 class="featurette-heading fw-normal lh-1">Sample Successful College App Essays. <span
+                                class="text-muted">See
+                                for yourself.</span></h2>
+                        <p class="lead">Of course, coming up with the essay that will wow the US college admissions
+                            committees is not easy. We are here to offer samples of what previous applicants wrote to
+                            get them into their dream colleges. Please use as inspiration</p>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" fill="currentColor"
+                            class="bi bi-patch-question bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto mt-5"
+                            viewBox="0 0 16 16" style="color: cornflowerblue;" preserveAspectRatio="xMidYMid slice"
+                            focusable="false">
+                            <path fill-rule="evenodd"
+                                d="M10.854 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 8.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+                            <path
+                                d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z" />
+                            <path
+                                d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" />
+                        </svg>
+
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading fw-normal lh-1">And lastly. <span class="text-muted">FAQs!</span>
+                        </h2>
+                        <p class="lead">And yes, we know you might still have a gazillion questions hence we are
+                            compiling a list of concerns and will provide answers. Keep the questions coming!</p>
+                    </div>
+                    <div class="col-md-5 px-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" fill="currentColor"
+                            class="bi bi-patch-question bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto mt-5"
+                            viewBox="0 0 16 16" style="color: cornflowerblue;" preserveAspectRatio="xMidYMid slice"
+                            focusable="false">
+                            <path
+                                d="M8.05 9.6c.336 0 .504-.24.554-.627.04-.534.198-.815.847-1.26.673-.475 1.049-1.09 1.049-1.986 0-1.325-.92-2.227-2.262-2.227-1.02 0-1.792.492-2.1 1.29A1.71 1.71 0 0 0 6 5.48c0 .393.203.64.545.64.272 0 .455-.147.564-.51.158-.592.525-.915 1.074-.915.61 0 1.03.446 1.03 1.084 0 .563-.208.885-.822 1.325-.619.433-.926.914-.926 1.64v.111c0 .428.208.745.585.745z" />
+                            <path
+                                d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911l-1.318.016z" />
+                            <path d="M7.001 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0z" />
+                        </svg>
+
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <!-- /END THE FEATURETTES -->
+
+            </div><!-- /.container -->
+        </div>
+        <p class="text-center my-0"> Questions? Reach out at <a
+                href="mailto: ghprepscholar@gmail.com">ghprepscholar@gmail.com</a></p>
+        <p class="text-center my-0"><a href="#">Back to top</a></p>
+    </main>
+
+
+
+    <!--Footer-->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <image href="./media/graduation-cap-solid.svg" height="30" width="24" />
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">&copy; 2022 GH Prep Scholar</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-instagram" style="font-size: 2rem; color: cornflowerblue;" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" fill="currentColor" class="bi bi-google"
+                            style="font-size: 2rem; color: cornflowerblue;" viewBox="0 0 16 16">
+                            <path
+                                d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-youtube" style="font-size: 2rem; color: cornflowerblue;" viewBox="0 0 16 16">
+                            <path
+                                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" fill="currentColor" class="bi bi-discord"
+                            style="font-size: 2rem; color: cornflowerblue;" viewBox="0 0 16 16">
+                            <path
+                                d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z" />
+                        </svg></a></li>
+            </ul>
+
+        </footer>
+
+    </div>
+
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
